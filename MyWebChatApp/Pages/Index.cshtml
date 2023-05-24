@@ -1,0 +1,50 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>ASP.NET Core SignalR Demo</p>
+</div>
+<div class="container">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row p-1">
+                <div class="col-2 p-0">User</div>
+                <div class="col-4"><input type="text" id="userInput" /></div>
+            </div>
+            <div class="row p-1">
+                <div class="col-2 p-0">Message</div>
+                <div class="col-4"><input type="text" class="w-100" id="messageInput" /></div>
+            </div>
+            <div class="row p-1">
+                <div class="col-6 text-end">
+                    <input class="btn btn-primary" type="button" id="sendButton" value="Send Message" />
+                </div>
+            </div>
+            <div class="row p-1">
+                <div class="col-6">
+                    @* <hr /> *@
+                    <br /> 
+                </div>
+            </div>
+        </div>
+
+        <ul class="list-group list-group-flush" id="messagesList">
+            @* <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li> *@
+        </ul>
+    </div>
+
+    @* <div class="row p-1">
+    <div class="col-6">
+    <ul id="messagesList"></ul>
+    </div>
+    </div> *@
+</div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>

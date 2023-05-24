@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32728.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWebChatApp", "MyWebChatApp\MyWebChatApp.csproj", "{09D1669F-1001-4C40-B78A-EDC5AC1107DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D296F01-5218-4DF4-BAA1-54F4E60C0E10}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D1669F-1001-4C40-B78A-EDC5AC1107DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D1669F-1001-4C40-B78A-EDC5AC1107DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D1669F-1001-4C40-B78A-EDC5AC1107DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D1669F-1001-4C40-B78A-EDC5AC1107DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9932BE87-8DD5-4EF5-8EFE-5CCB031CFF4C}
+	EndGlobalSection
+EndGlobal

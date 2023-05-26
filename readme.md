@@ -29,6 +29,14 @@ You can determine what transport your application is using by enabling logging o
 
 `$.connection.hub.logging = true;`
 
+## Connections and Hubs
+The SignalR API contains two models for communicating between clients and servers: 
+1. **Persistent Connections**. A Connection represents a simple endpoint for sending single-recipient, grouped, or broadcast messages.
+2. **Hubs**. A Hub is a more high-level pipeline built upon the Connection API that allows your client and server to call methods on each other directly.
+
+## How Hubs work
+>When server-side code calls a method on the client, a packet is sent across the active transport that contains the name and parameters of the method to be called (when an object is sent as a method parameter, it is serialized using JSON). The client then matches the method name to methods defined in client-side code. If there is a match, the client method will be executed using the deserialized parameter data.
+
 ---
 ## Links:
 * [Tutorial: Get started with ASP.NET Core SignalR](https://learn.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-7.0&tabs=visual-studio)
